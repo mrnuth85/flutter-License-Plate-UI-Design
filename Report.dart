@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/ReportDetail.dart';
-import '../model/ReportItem.dart';
-import '../services/ReportStorage.dart';
+import 'package:sv_vehicle_license_plate_detection/model/ReportItem.dart';
+import 'package:sv_vehicle_license_plate_detection/services/ReportStorage.dart';
 
 class ReportPage extends StatefulWidget {
   final String? capturedImagePath;

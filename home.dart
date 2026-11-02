@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sv_vehicle_license_plate_detection/Pages/Capture_Vehicle.dart';
+import 'package:sv_vehicle_license_plate_detection/Pages/CaptureVehicle.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/Notifications.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/Report.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/Setting.dart';
-import '../model/ReportItem.dart';
-import '../services/ReportStorage.dart';
+import 'package:sv_vehicle_license_plate_detection/model/ReportItem.dart';
+import 'package:sv_vehicle_license_plate_detection/services/ReportStorage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

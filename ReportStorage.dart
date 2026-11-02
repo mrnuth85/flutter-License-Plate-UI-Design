@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../model/ReportItem.dart';
+import 'package:sv_vehicle_license_plate_detection/model/ReportItem.dart';
 
 class ReportStorage {
   static Future<String> saveImagePermanently(String temPath) async {
