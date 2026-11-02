@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/ReportDetail.dart';
-import '../model/ReportItem.dart';
-import '../Services/ReportStorage.dart';
+import 'package:sv_vehicle_license_plate_detection/model/ReportItem.dart';
+import 'package:sv_vehicle_license_plate_detection/services/ReportStorage.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
 class ReportPage extends StatefulWidget {

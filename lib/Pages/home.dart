@@ -4,8 +4,8 @@ import 'package:sv_vehicle_license_plate_detection/Pages/CaptureVehicle.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/Notifications.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/Report.dart';
 import 'package:sv_vehicle_license_plate_detection/Pages/Setting.dart';
-import '../model/ReportItem.dart';
-import '../Services/ReportStorage.dart';
+import 'package:sv_vehicle_license_plate_detection/model/ReportItem.dart';
+import 'package:sv_vehicle_license_plate_detection/services/ReportStorage.dart';
 import 'package:sv_vehicle_license_plate_detection/model/MaintenanceVehicle.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
